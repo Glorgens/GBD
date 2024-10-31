@@ -1184,6 +1184,7 @@ a:focus {
 }
 
 .testimonial .testimonial-slider {
+    overflow: hidden;
     position: relative;
     margin-top: 15px;
     padding-top: 50px;
@@ -1218,6 +1219,9 @@ a:focus {
     font-size: 14px;
     font-weight: 300;
     margin: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
 }
 
 
