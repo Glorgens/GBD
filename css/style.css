@@ -25,7 +25,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #fdbe33;
+    color: #e0e0e0;
     outline: none;
     text-decoration: none;
 }
@@ -45,7 +45,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #fdbe33;
+    background: #e0e0e0;
     color: #121518;
     width: 44px;
     height: 44px;
@@ -59,7 +59,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-    color: #fdbe33;
+    color: #e0e0e0;
     background: #121518;
 }
 
@@ -78,7 +78,7 @@ a:focus {
 .top-bar {
     position: relative;
     height: 90px;
-    background: #fdbe33;
+    background: #e0e0e0;
 }
 
 .top-bar .logo {
@@ -150,12 +150,13 @@ a:focus {
 }
 
 
+
 /**********************************/
 /*********** Nav Bar CSS **********/
 /**********************************/
 .nav-bar {
     position: relative;
-    background: #fdbe33;
+    background: #e0e0e0; /* Changed */
     transition: .3s;
 }
 
@@ -187,7 +188,7 @@ a:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #fdbe33;
+    color: #4d4d4d; /* Changed */
     transition: none;
 }
 
@@ -206,8 +207,8 @@ a:focus {
 
 .nav-bar .btn:hover {
     color: #030f27;
-    background: #fdbe33;
-    border-color: #fdbe33;
+    background: #e0e0e0; /* Changed */
+    border-color: #e0e0e0; /* Changed */
 }
 
 @media (min-width: 992px) {
@@ -331,8 +332,8 @@ a:focus {
 
 .carousel .carousel-caption .btn:hover {
     color: #030f27;
-    background: #fdbe33;
-    border-color: #fdbe33;
+    background: #e0e0e0; /* Changed */
+    border-color: #e0e0e0; /* Changed */
 }
 
 @media (max-width: 767.98px) {
@@ -375,6 +376,7 @@ a:focus {
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
 }
+
 
 
 /*******************************/
