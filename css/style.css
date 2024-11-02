@@ -155,7 +155,7 @@ a:focus {
 /*********** Nav Bar CSS **********/
 /**********************************/
 .nav-bar {
-    position: relative;
+    position: fixed;
     background: #e0e0e0; /* Changed */
     transition: .3s;
 }
