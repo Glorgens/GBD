@@ -1282,24 +1282,30 @@ a:focus {
     text-overflow: ellipsis;
 }
 
+/* Button styling for all states */
 .blog .btn-primary {
-    background-color: #e0e0e0; /* Default grey background */
-    color: #030f27; /* Text color */
-    border: 1px solid #030f27; /* Border color */
+    background-color: #e0e0e0 !important; /* Default grey background */
+    color: #030f27 !important; /* Text color */
+    border: 1px solid #030f27 !important; /* Border color */
     padding: 10px; /* Button padding */
     text-decoration: none; /* Remove underline */
     display: inline-block; /* Ensure proper display */
-    border-radius: 0; /* Square corners */
+    border-radius: 0 !important; /* Square corners */
     font-weight: bold; /* Make text bold */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition */
+    outline: none; /* Remove outline */
 }
 
-.blog .btn-primary:hover {
-    background-color: #030f27; /* Blue on hover */
-    color: #ffffff; /* White text on hover */
+/* Hover and focus state */
+.blog .btn-primary:hover,
+.blog .btn-primary:focus,
+.blog .btn-primary:active {
+    background-color: #030f27 !important; /* Dark blue background on hover */
+    color: #ffffff !important; /* White text on hover */
+    border-color: #030f27 !important; /* Dark blue border on hover */
+    outline: none !important; /* Remove outline */
+    box-shadow: none !important; /* Remove any shadow */
 }
-
-
 
 .blog .blog-meta {
     position: relative;
